@@ -1,0 +1,8 @@
+git clone https://github.com/tu-usuario/nombre-del-repo.git
+cd nombre-del-repo
+git config --global user.name "Tu Nombre"
+git config --global user.email "tuemail@example.com"
+git status
+git add .
+git commit -m "Descripción de los cambios"
+git push origin main
